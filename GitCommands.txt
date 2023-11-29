@@ -1,0 +1,148 @@
+1. Initialize a Repository:
+  => git init
+
+2. Clone a Repository:
+  => create a folder and in that open command prompt 
+    git clone <repository-url>
+
+3. Add Changes to Staging Area:
+  => git add <file>  (for only one file)    
+     git add .  (for all the files)    => dot (.) meaning all files.  
+
+4. Commit Changes:
+  => git commit -m "Commit message"
+ 
+5. View Changes:
+  => git status
+ 
+6. Create a Branch:
+  => git branch <branch-name>
+ 
+7. Delete a Branch:
+  => git branch -d <branch-name>
+
+8. Create and Switch to a Branch:
+  => git checkout -b <branch-name>
+     git switch -c <branch-name>   # Git version 2.23 and later
+
+9. Merge Branch into Current Branch:
+  => git merge <branch-name>
+
+10.  Switch to a Branch:
+  => git checkout <branch-name>
+     git switch <branch-name>   # Git version 2.23 and later 
+
+11. Show Changes between Working Directory and Staging Area:
+  => git diff
+
+12. Show Changes between Staging Area and Last Commit:
+   => git diff --staged
+
+13. Show Commit Log:
+   => git log
+
+14. Show Remote Repositories:
+   => git remote -v
+
+15. Add a Remote Repository:
+   => git remote add <remote-name> <remote-url>
+
+16. Fetch Changes from a Remote Repository:
+  => git fetch <remote-name>
+
+17. Pull Changes from a Remote Repository:
+   => git pull <remote-name> <branch-name>
+
+18. Push Changes to a Remote Repository:
+   => git push <remote-name> <branch-name>
+
+19. Discard Changes in Working Directory:
+   => git restore <file>
+
+20. Undo Changes in Staging Area:
+   => git restore --staged <file>
+
+22. Undo Last Commit (Soft):
+   => git reset --soft HEAD^
+
+23. Undo Last Commit (Hard):
+   => git reset --hard HEAD^
+
+24. Show Git Version:
+   => git --version
+
+25. Stash Changes:
+   =>git stash
+
+26. List Stashes:
+    => git stash list
+
+27. Apply Latest Stash:
+   => git stash apply
+
+28. Discard Latest Stash:
+   => git stash drop
+
+29. Configure Git User Information:
+   => git config --global user.name "Your Name"
+      git config --global user.email "your.email@example.com"
+
+30. Check Configuration:
+   => git config --list
+
+31. Show Commit History with Changes:
+   => git log -p
+
+32. Show Summary of Changes in Each Commit:
+   => git log --oneline
+
+33. Merge and Edit Commit Message:
+   => git merge --edit <branch-name>
+
+34. Squash Commits: 
+   => git merge --squash <branch-name>
+
+35. Squash Commits:
+   => git merge --squash <branch-name>
+
+36. Rebase Current Branch onto Another:
+   => git rebase <branch-name>
+
+37. Interactive Rebase:
+   => git rebase -i <commit-hash>
+
+38. Soft Reset (Keep Changes in Staging):
+   => git reset --soft <commit-hash>
+
+39. Mixed Reset (Unstage Changes):
+   => git reset --mixed <commit-hash>
+
+40. Hard Reset (Discard Changes):
+   => git reset --hard <commit-hash>
+
+41. Remove Untracked Files:
+   => git clean -fd
+
+42. Show Reference Log:
+   => git reflog
+
+43. Restore to a Specific Commit from Reflog:
+  => git reset --hard HEAD@{<reflog-index>}
+
+44. Show Commits by a Specific Author:
+  => git log --author="Author Name"
+
+45. Show Changes Between Two Commits:
+  => git diff <commit1> <commit2>
+
+46. Show Changes in a Specific File:
+   => git diff <file>
+47. Show Reflog for All References:
+   => git reflog show --all
+
+
+ 
+
+
+
+
